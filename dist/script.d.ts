@@ -1,3 +1,3 @@
-declare async function load(params?: any): any;
+declare function load(params?: any): Promise<any>;
 
-export = {load};
+export {load};
